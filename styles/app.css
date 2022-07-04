@@ -4,11 +4,11 @@
 :root {
   --purple-light-1: #FBFAFB;
   --purple-light-2: #EEEAF2;
-  --purple-medium-1: #AA83C8;
+  /* --green-dark-1: #AA83C8; */
   --purple-medium-2: #8B48BF;
-  --purple-medium-3: #5C218A;
-  --purple-dark-1: #3E0F64;
-  --purple-dark-2: #2A0646;
+  --purple-medium-3: #2888ff;
+  --blue-dark-1: #0076f4;
+  --green-dark-1: #008B9E;
 
   --yellow: #EECC75;
   --green: #CAD297;
@@ -31,7 +31,7 @@ html {
 
 body {
   background-color: var(--purple-light-1);
-  color: var(--purple-dark-2);
+  color: var(--green-dark-1);
   font-family: var(--font-family-text);
   font-weight: var(--font-weight-text1);
   font-size: 16px;
@@ -46,7 +46,7 @@ h1, h2, h3 {
 
 h1, h2 {
   font-size: 24px;
-  color: var(--purple-dark-2);
+  color: var(--green-dark-1);
   font-family: var(--font-family-titles);
   font-weight: var(--font-weight-title1);
   margin: 0;
@@ -55,12 +55,12 @@ h1, h2 {
 
 h2 {
   font-size: 18px;
-  color: var(--purple-dark-1);
+  color: var(--blue-dark-1);
   font-weight: var(--font-weight-title2);
 }
 
 h3 {
-  color: var(--purple-dark-2);
+  color: var(--green-dark-1);
   font-weight: var(--font-weight-text2);
   font-size: 16px;
 }
@@ -74,12 +74,12 @@ input {
 }
 
 input::placeholder {
-  color: var(--purple-medium-1);
+  color: var(--green-dark-1);
   font-family: var(--font-family-text);
 }
 
 button {
-  background-color: var(--purple-dark-1);
+  background-color: var(--blue-dark-1);
   border: none;
   color: var(--purple-light-2);
   font-weight: var(--font-weight-text2);
@@ -239,15 +239,15 @@ button {
 #id16 { --idColor: var(--green); }
 #id35 { --idColor: var(--lightBlue); }
 #id80 { --idColor: var(--darkBlue); }
-#id99 { --idColor: var(--purple-dark-1); }
-#id18 { --idColor: var(--purple-medium-1); }
+#id99 { --idColor: var(--blue-dark-1); }
+#id18 { --idColor: var(--green-dark-1); }
 #id10751 { --idColor: var(--yellow); }
 #id14 { --idColor: var(--red); }
 #id36 { --idColor: var(--green); }
 #id27 { --idColor: var(--lightBlue); }
 #id10402 { --idColor: var(--darkBlue); }
-#id9648 { --idColor: var(--purple-dark-1); }
-#id10749 { --idColor: var(--purple-medium-1); }
+#id9648 { --idColor: var(--blue-dark-1); }
+#id10749 { --idColor: var(--green-dark-1); }
 #id878 { --idColor: var(--yellow); }
 #id10770 { --idColor: var(--red); }
 #id53 { --idColor: var(--green); }
@@ -278,11 +278,12 @@ button {
 .movieDetail-container {
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
-  padding: 32px 24px;
+  padding: 32px 9px;
   margin-top: 403px;
   z-index: 1;
   position: absolute;
   background-color: var(--purple-light-1);
+  width: 100%;
 }
 
 .movieDetail-title {
